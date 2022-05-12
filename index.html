@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
 </head>
 <body>
@@ -39,52 +40,52 @@
     </header> 
     <main>
         <section class="hero overlay">
-            <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button hero-btn" data-modal-open>Заказать услугу</button>
+            <h1 class="hero__tittle">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="button hero__btn" data-modal-open>Заказать услугу</button>
         </section>
         <section class="advantage">
             <div class="container">
             <h2 class="visually-hidden "> Наши преимущества </h2>
-            <ul class="advantage-list list">
-                <li class="advantage-item icon-antena">
-                    <h3 class="advantage-heading"> Внимание к деталям </h3> 
-                    <p class="advantage-desc">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <ul class="preference-list list">
+                <li class="preference-list__item icon-antena">
+                    <h3 class="preference-list__heading"> Внимание к деталям </h3> 
+                    <p class="preference-list__desc">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="advantage-item icon-clock">
-                   <h3 class="advantage-heading">Пунктуальность</h3>
-                    <p class="advantage-desc">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <li class="preference-list__item icon-clock">
+                   <h3 class="preference-list__heading">Пунктуальность</h3>
+                    <p class="preference-list__desc">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="advantage-item icon-diagram">
-                   <h3 class="advantage-heading">Планирование</h3>
-                    <p class="advantage-desc">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li class="preference-list__item icon-diagram">
+                   <h3 class="preference-list__heading">Планирование</h3>
+                    <p class="preference-list__desc">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="advantage-item icon-astronaut">
-                    <h3 class="advantage-heading">Современные технологии</h3>
-                    <p class="advantage-desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li class="preference-list__item icon-astronaut">
+                    <h3 class="preference-list__heading">Современные технологии</h3>
+                    <p class="preference-list__desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
             </div>
         </section>
         <section class="about">
             <div class="container">
-            <h2 class="about-title title">Чем мы занимаемся</h2>
-            <ul class="about-list list">
-                <li class="about-item">
-                    <div class="imgage-desctop">
-                        <img src="./images/about_img1.jpg" alt="десктопные приложения" width="370" class="about-image">
-                        <h3 class="image-desctop-descr">Десктопные приложения</h3>
+            <h2 class="about__title title">Чем мы занимаемся</h2>
+            <ul class="about__list list">
+                <li class="about__item">
+                    <div class="about__wrap">
+                        <img src="./images/about_img1.jpg" alt="десктопные приложения" width="370">
+                        <h3 class="about__descr">Десктопные приложения</h3>
                     </div>
                 </li>
-                <li class="about-item">
-                    <div class="imgage-desctop">
-                        <img src="./images/about_img2.jpg" alt="мобильные приложения" width="370" class="about-image">
-                        <h3 class="image-desctop-descr">Мобильные приложения</h3>
+                <li class="about__item">
+                    <div class="about__wrap">
+                        <img src="./images/about_img2.jpg" alt="мобильные приложения" width="370">
+                        <h3 class="about__descr">Мобильные приложения</h3>
                     </div>
                 </li>
-                <li class="about-item">
-                    <div class="imgage-desctop">
-                        <img src="./images/about_img3.jpg" alt="дизайнерские ришения" width="370" class="about-image">
-                        <h3 class="image-desctop-descr">Дизайнерские решения</h3>
+                <li class="about__item">
+                    <div class="about__wrap">
+                        <img src="./images/about_img3.jpg" alt="дизайнерские ришения" width="370">
+                        <h3 class="about__descr">Дизайнерские решения</h3>
                     </div>
                 </li>
             </ul>
@@ -408,7 +409,7 @@
                             </svg>
                         </span>Соглашаюсь с рассылкой и принимаю&nbsp; <a href="" class="check-conditions">Условия договора</a></label>
                 </div>
-                <button type="submit" class="sent-btn button hero-btn">Отправить</button>
+                <button type="submit" class="sent-btn button hero__btn">Отправить</button>
             </form>
         </div>
     </div>

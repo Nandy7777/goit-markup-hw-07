@@ -1,11 +1,11 @@
-:root {
+/* :root {
     --sercondary-text-color: #757575;
     --main-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --duration-time: 250ms;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 body {
     font-size: 14px;
@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-white-color);
 }
 
-p, 
+/* p, 
 h1, 
 h2,
 h3, 
@@ -35,7 +35,7 @@ img {
      display: block;
      max-width: 100%;
      height: auto;
-}
+} */
 
 .container {
     width: 1200px;
@@ -92,7 +92,7 @@ img {
 
 /* ------------------------------------HEADER--------------------------------- */
 
-.header {
+/* .header {
     border-bottom: 1px;
     border-bottom-color: #ECECEC;
 }
@@ -181,12 +181,12 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--accent-color) ;
-}
+} */
     
 
 /* ------------------------------------HERO------------------------- */
 
-.hero {
+/* .hero {
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -194,7 +194,7 @@ img {
     background-color: #2F303A;
 }
 
-.hero-tittle { 
+.hero__tittle { 
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -222,7 +222,7 @@ img {
     cursor: pointer;
 }
 
-.hero-btn{
+.hero__btn{
     display: inline-block;
     min-width: 200px;
     padding-top: 10px;
@@ -251,23 +251,23 @@ img {
     background-position: center;
     background-size: cover;
 
-}
+} */
 /* --------------------------------------ADVANTAGE-------------------------- */
 
-.advantage {
+/* .advantage {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.advantage-list {
+.preference-list {
     display: flex;
 }
 
-.advantage-item {
+.preference-list__item {
     width: 270px;
 }
 
-.advantage-item::before {
+.preference-list__item::before {
     
     display: block;
     content: "" ;
@@ -294,11 +294,11 @@ img {
 .icon-astronaut::before {
     background-image: url('../images/astronaut\ 1.svg');
 }
-.advantage-item:not(:last-child) {
+.preference-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.advantage-heading {
+.preference-list__heading {
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -307,41 +307,37 @@ img {
     color: var(--main-text-color);
 }
 
-.advantage-desc {
+.preference-list__desc {
     line-height: 1.71;
     color: var(--sercondary-text-color);
-}
+} */
 
 /* --------------------------------------ABOUT------------------------ */
 
-.about{
+/* .about{
     padding-top: 0;
     padding-bottom: 94px;
 }
 
-.about-title{
+.about__title{
     margin-bottom: 50px;
 }
 
-.about-list{
+.about__list{
     display: flex;
     align-items: center;
 }
 
-.about-item:not(:last-child) {
+.about__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.imgage-desctop {
+.about__wrap {
     position: relative;
 }
 
-.image-label{
-    
-    
-}
 
-.image-desctop-descr {
+.about__descr {
     position: absolute;
 
     display: block;
@@ -359,10 +355,10 @@ img {
     
     text-transform: uppercase;
     text-align: center;
-}
+} */
 
 /* -------------------------------------TEAM------------------------------ */
-.team {
+/* .team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
@@ -449,11 +445,11 @@ img {
 .team-soc-link:hover .team-item-icon,
 .team-soc-link:focus .team-item-icon {
     fill: var(--primary-white-color);
-}
+} */
 
 /* --------------------------------------CLIENT---------------------------- */
 
-.client {
+/* .client {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -501,10 +497,10 @@ img {
 .client-link:hover .client-item-icon,
 .client-link:focus .client-item-icon {
     fill: var(--accent-color);
-}
+} */
 
 /* --------------------------------------FOOTER----------------------------- */
-.footer {
+/* .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
@@ -549,10 +545,10 @@ img {
 
 .link-footer {
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* ---------------------------------FOOTER CONNECT-------------------------- */
-.connect{
+/* .connect{
     margin-right: 93px;
 }
 
@@ -603,9 +599,11 @@ img {
 .connect-soc-link:hover .connect-item-icon,
 .connect-soc-link:focus .connect-item-icon {
     fill: var(--primary-white-color);
-}
+} */
 
-.submit-title{
+/* ----------------footer-submit-------------------------- */
+
+/* .submit-title{
     font-weight: 700;
     text-transform: uppercase;
     color: var(--primary-white-color);
@@ -656,11 +654,11 @@ img {
     bottom: 13px;
     
     fill: var(--primary-white-color);
-}
+} */
 
 
 /* -----------------------------------FILTER PORTFOLIO-------------------- */
-.portfolio{
+/* .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -704,11 +702,11 @@ img {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 
 /* -----------------------------------PROJECTS PORTFOLIO------------------ */
-.projects-list {
+/* .projects-list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -772,10 +770,10 @@ img {
 
 .project-type {
     color: var(--sercondary-text-color);
-}
+} */
 /* --------------------------------MODAL---------------------------- */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -951,4 +949,4 @@ img {
     text-decoration-line: underline;
     color: var(--accent-color);
 
-}
+} */
