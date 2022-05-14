@@ -27,6 +27,10 @@
     transition-property: border;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    border: 1px solid var(--accent-color);
+    }
 }
 
 .client-item-icon {
@@ -35,15 +39,8 @@
     transition-property: fill;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
-}
-
-.client-link:hover,
-.client-link:focus {
-    border: 1px solid var(--accent-color);
-}
-
-
-.client-link:hover .client-item-icon,
-.client-link:focus .client-item-icon {
+    .client-link:hover &,
+    .client-link:focus & {
     fill: var(--accent-color);
+    }
 }

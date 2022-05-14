@@ -1,15 +1,13 @@
 .header {
     border-bottom: 1px;
     border-bottom-color: #ECECEC;
+    .container{
+        @extend %align-list;
+    }
 }
 
 .header-logo{
     margin-right: 93px;
-}
-
-.header .container{
-    display: flex;
-    align-items: center;
 }
 
 .header-connect{
@@ -21,8 +19,7 @@
 }
 
 .header-list{
-    display: flex;
-    align-items: center;
+    @extend %align-list;
 }
 
 .header-item:not(:last-child) {
@@ -31,7 +28,6 @@
 }
 
 .header-link {
-    
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -44,8 +40,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--sercondary-text-color);
-    display: flex;
-    align-items: center;
+    @extend %align-list;
 }
 
 .header-link, 

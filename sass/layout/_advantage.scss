@@ -9,18 +9,19 @@
 
 .preference-list__item {
     width: 270px;
-}
-
-.preference-list__item::before {
-    
-    display: block;
+    &::before {
     content: "" ;
+    display: block;
     height: 120px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+    }
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
 }
 
 .icon-antena::before {
@@ -37,9 +38,6 @@
 
 .icon-astronaut::before {
     background-image: url('../images/astronaut\ 1.svg');
-}
-.preference-list__item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .preference-list__heading {

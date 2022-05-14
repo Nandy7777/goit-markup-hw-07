@@ -25,6 +25,11 @@
     transition-property: background-color, border-radius ;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    }
 }
 
 .connect-item-icon {
@@ -33,20 +38,14 @@
     transition-property: fill;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
-}
-
-.connect-soc-item +.connect-soc-item {
-    margin-left: 10px;
-}
-
-.connect-soc-link:hover,
-.connect-soc-link:focus {
-    background-color: var(--accent-color);
-    border-radius: 50%;
-}
-
-
-.connect-soc-link:hover .connect-item-icon,
-.connect-soc-link:focus .connect-item-icon {
+    .connect-soc-link:hover &,
+    .connect-soc-link:focus & {
     fill: var(--primary-white-color);
+    }
+}
+
+.connect-soc-item {
+    & + & {
+        margin-left: 10px;
+    }
 }

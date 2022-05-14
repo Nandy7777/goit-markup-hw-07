@@ -1,6 +1,17 @@
 
 @import "./utils/variables";
+@import "./utils/hidden";
+@import "./utils/placeholders";
+
 @import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/title";
+@import "./components/logo";
+@import "./components/button";
+@import "./components/modal";
+
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -13,4 +24,3 @@
 @import "./layout/footer-submit";
 @import "./layout/filter-portfolio";
 @import "./layout/projects-portfolio";
-@import "./layout/modal"; 

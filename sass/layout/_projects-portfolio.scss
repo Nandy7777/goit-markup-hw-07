@@ -13,16 +13,10 @@
     transition-property: box-shadow;
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
-}
-
-.projects-item:hover,
-.projects-item:focus {
+    &:hover,
+    &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.projects-item:hover .overlay-text {
-    transform: translateY(0%);
-
+    }
 }
 
 .projects-wrap{
@@ -43,7 +37,9 @@
     transition-duration: var(--duration-time);
     transition-timing-function: var(--timing-function);
     overflow: auto;
-
+    .projects-item:hover & {
+    transform: translateY(0%);
+    }
 }
 
 .project-container{
