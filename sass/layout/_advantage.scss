@@ -7,7 +7,7 @@
     display: flex;
 }
 
-.preference-list__item {
+.preference-item {
     width: 270px;
     &::before {
     content: "" ;
@@ -40,7 +40,7 @@
     background-image: url('../images/astronaut\ 1.svg');
 }
 
-.preference-list__heading {
+.preference-heading {
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -49,7 +49,7 @@
     color: var(--main-text-color);
 }
 
-.preference-list__desc {
+.preference-desc {
     line-height: 1.71;
     color: var(--sercondary-text-color);
 }

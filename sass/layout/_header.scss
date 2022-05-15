@@ -40,7 +40,8 @@
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--sercondary-text-color);
-    @extend %align-list;
+    display: flex;
+    align-items: center;
 }
 
 .header-link, 

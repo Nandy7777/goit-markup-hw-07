@@ -3,24 +3,24 @@
     padding-bottom: 94px;
 }
 
-.about__title{
+.about-title{
     margin-bottom: 50px;
 }
 
-.about__list{
+.about-list{
     @extend %align-list;
 }
 
-.about__item:not(:last-child) {
+.about-item:not(:last-child):not(:last-child) {
     margin-right: 30px;
 }
 
-.about__wrap {
+.about-wrap {
     position: relative;
 }
 
 
-.about__descr {
+.about-descr {
     position: absolute;
     display: block;
     bottom: 0;
